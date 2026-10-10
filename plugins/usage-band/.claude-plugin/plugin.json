@@ -1,0 +1,17 @@
+{
+  "name": "usage-band",
+  "version": "0.6.0",
+  "description": "輸入框上方的常駐用量帶：context、五小時與本週額度（附進度條與重置倒數）、快取倒數；超過 80% 變紅",
+  "author": { "name": "zhuzhu0710" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cache_ttl_minutes": {
+      "type": "number",
+      "title": "快取存活分鐘數",
+      "description": "提示快取在最後一次回應後保留幾分鐘（訂閱帳號通常是 60，API 預設是 5）",
+      "default": 60,
+      "min": 1,
+      "max": 60
+    }
+  }
+}

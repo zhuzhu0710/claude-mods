@@ -1,0 +1,7 @@
+{
+  "name": "cache-timer",
+  "version": "0.2.0",
+  "description": "主對話的提示快取（一小時）剩五分鐘時跳提醒；倒數顯示在 usage-band 那一行",
+  "author": { "name": "asus" },
+  "types": "./types/index.d.ts"
+}

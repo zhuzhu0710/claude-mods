@@ -1,0 +1,6 @@
+{
+  "name": "edit-guard",
+  "version": "0.1.0",
+  "description": "跨對話檔案編輯紀錄：寫入或編輯前檢查三十分鐘內是否有別的對話改過同一檔案，有則詢問是否繼續",
+  "author": { "name": "zhuzhu0710" }
+}

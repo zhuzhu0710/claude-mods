@@ -1,0 +1,11 @@
+{
+  "name": "zhuzhu-mods",
+  "owner": { "name": "zhuzhu0710" },
+  "description": "zhuzhu0710 自己的 Claude Code 模組，本機與雲端對話共用",
+  "plugins": [
+    { "name": "usage-band", "source": "./plugins/usage-band", "description": "輸入框上方的常駐用量帶：context、五小時與本週額度（附進度條與重置倒數）、快取倒數；超過 80% 變紅" },
+    { "name": "context-handoff", "source": "./plugins/context-handoff", "description": "Context 用到七成時，在輸入框上方顯示綠色交接按鈕：寫交接摘要、存檔、清空對話，再把摘要當新對話第一句送出" },
+    { "name": "cache-timer", "source": "./plugins/cache-timer", "description": "主對話的提示快取（一小時）剩五分鐘時跳提醒；倒數顯示在 usage-band 那一行" },
+    { "name": "edit-guard", "source": "./plugins/edit-guard", "description": "跨對話檔案編輯紀錄：寫入或編輯前檢查三十分鐘內是否有別的對話改過同一檔案，有則詢問是否繼續" }
+  ]
+}
